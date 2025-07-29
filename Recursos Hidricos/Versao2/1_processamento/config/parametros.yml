@@ -1,0 +1,30 @@
+# parametros.yml
+dir_dados: "2-Input/geopackages_adaptabrasil"
+dir_saida: "4-Output"
+caminho_dados_obs: "2-Input/geopackages_adaptabrasil/bho_baseline_1980_2014_estudo_mc_ana.csv"
+caminho_biomas: "/home/usuario/Documentos/Shapefiles/Biomas_250mil/lm_bioma_250.shp"
+caminho_ref: "2-Input/geopackages_adaptabrasil/bho_budyko_mc_periodo1_deltaqrel_ssp245.gpkg"
+
+biomas:
+  - "Amazônia"
+  - "Caatinga"
+  - "Cerrado"
+  - "Mata Atlântica"
+  - "Pampa"
+  - "Pantanal"
+
+modelos:
+  - "GFDL_ESM4"
+  - "INM_CM5"
+  - "MPI_ESM1_2_HR"
+  - "MRI_ESM2_0"
+  - "NORESM2_MM"
+
+cenarios:
+  - "ssp245"
+  - "ssp585"
+
+periodos:
+  - "periodo1"
+  - "periodo2"
+  - "periodo3"
